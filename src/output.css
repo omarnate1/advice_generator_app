@@ -562,16 +562,13 @@ video {
   position: relative;
 }
 
-.top-\[85\%\] {
-  top: 85%;
-}
-
-.top-\[87\%\] {
-  top: 87%;
-}
-
 .top-\[89\%\] {
   top: 89%;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .my-32 {
@@ -589,11 +586,6 @@ video {
   margin-bottom: 2rem;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .mb-24 {
   margin-bottom: 6rem;
 }
@@ -606,32 +598,12 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-screen {
   height: 100vh;
-}
-
-.h-\[100vh\] {
-  height: 100vh;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-\[80\%\] {
-  height: 80%;
-}
-
-.h-\[50\%\] {
-  height: 50%;
-}
-
-.h-\[40\%\] {
-  height: 40%;
-}
-
-.h-\[37\%\] {
-  height: 37%;
 }
 
 .w-\[90\%\] {
@@ -681,16 +653,6 @@ video {
   background-color: rgb(82 255 168 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -716,11 +678,6 @@ video {
 
 .font-manrope {
   font-family: Manrope, sans-serif;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-2xl {
@@ -766,20 +723,30 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+@media (min-width: 768px) {
+  .md\:grid {
+    display: grid;
+  }
+
+  .md\:w-\[600px\] {
+    width: 600px;
+  }
+}
+
 @media (min-width: 1024px) {
-  .lg\:top-\[89\%\] {
-    top: 89%;
+  .lg\:grid {
+    display: grid;
   }
 
   .lg\:h-\[37\%\] {
     height: 37%;
   }
 
-  .lg\:w-\[400px\] {
-    width: 400px;
-  }
-
   .lg\:w-\[600px\] {
     width: 600px;
+  }
+
+  .lg\:justify-center {
+    justify-content: center;
   }
 }
