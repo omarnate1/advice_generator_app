@@ -23,3 +23,5 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - Website - [nathan-orobor](https://nathan-portfolio-eta.vercel.app/)
 - Frontend Mentor - [@omarnate1](https://www.frontendmentor.io/profile/omarnate1)
 - Twitter - [@boss_nathan](https://x.com/boss_nathan)
+
+          class="bg-neon-green p-6 rounded-full absolute top-[89%] btn transition-shadow duration-300 hover:shadow-neon-green hover:scale-105 active:shadow-inner active:shadow-[inset_5px_5px_10px_-3px_rgba(0,0,0,0.7)]"
